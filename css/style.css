@@ -3,9 +3,10 @@
 *{background:#000000;}
 
 h1 {size:20px;
-  color:#ffffff;}
+  color:#ffffff;
+  font-family: "Times New Roman", Times, serif;}
 
-.class {margin: 0 auto;
+.container {margin: 0 auto;
       size:960px;}
   
 #top_container{margin-top:10px;}
