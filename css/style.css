@@ -5,6 +5,7 @@
 h1 {size:20px;
   color:#ffffff;}
 
-#main {margin: 0 auto;}
+#main {margin: 0 auto;
+      size:960px;}
   
 #top_container{margin-top:10px;}
