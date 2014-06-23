@@ -56,3 +56,4 @@ function getRandomDate(){
 function bodyLoad(){
 	window.geemails = [];
 	loadGeeMails();	
+}
