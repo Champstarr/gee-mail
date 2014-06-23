@@ -1,6 +1,4 @@
-
-
-/*This is the mail generator file that will generate initial mail messages and expose methods for creating new messages in your project. Do not make any modifications to this file for your solution. Happy coding!*/
+*This is the mail generator file that will generate initial mail messages and expose methods for creating new messages in your project. Do not make any modifications to this file for your solution. Happy coding!*/
 
 
 //Gee Mail message stub data 
@@ -13,7 +11,7 @@ var body = ['I am never gonna see a merman, ever. You haven\'t seen my drawer of
 function loadGeeMails(){
 	for (var i = 0; i < 10; i++){
 		var message = generateMessage();
-		document.write("<tr>");
+		document.write("<tr class='normal' onmouseover='trMouseOver(this);' onmouseout='trMouseOut(this);'>");
 		document.write("<td>" + i + "</td>");
 		document.write("<td>" + message.date + "</td>");
 		document.write("<td>" + message.subject + "</td>");
@@ -23,7 +21,37 @@ function loadGeeMails(){
 		//window.geemails.push(message);
 
 	}
+
 }
+
+function trMouseOver(obj) {
+  obj.className = 'highlight';
+
+}
+
+
+function trMouseOut(obj) {
+  obj.className = 'normal';
+}
+
+
+
+
+
+function pageReload() {
+  var result = confirm("Check and load new messages now?");
+  if (result) {
+    document.location.href = document.location.href; 
+  }    
+  else {
+    setTimeout('pageReload();', 5000); 
+  }
+}   
+
+
+
+
+
 
 function generateMessage(date){
 	var message = {};
