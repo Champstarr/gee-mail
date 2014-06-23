@@ -1,12 +1,23 @@
-/*testing*/
 
-*{background:#000000;}
+h1{font-size: 24px;}
+h3{text-transform: uppercase;
+font-size: 14px;
+}
 
-h1 {size:20px;
-  color:#ffffff;
-  font-family: "Times New Roman", Times, serif;}
 
-.container {margin: 0 auto;
-      size:960px;}
-  
-#top_container{margin-top:10px;}
+.container{margin: 0 auto;}
+#main{width: 960px; height: auto;}
+
+#header{margin:30px 0 10px 0;}
+#header h1{margin:0 400px;}
+
+ul li {float: left; 
+background-color: #A9D0F5;
+}
+
+#sender{width: 150px;}
+#subject{width: 200px;}
+#body{width: 400px;}
+#date{width: 150px;}
+
+td.header {color: black; background-color: silver; font-family: arial; font-size: 14pt; font-weight: bold;}
