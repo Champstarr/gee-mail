@@ -21,3 +21,7 @@ background-color: #A9D0F5;
 #date{width: 150px;}
 
 td.header {color: black; background-color: silver; font-family: arial; font-size: 14pt; font-weight: bold;}
+
+
+tr.highlight { background-color:#ffffe3; font-weight:bold; }
+tr.normal { background-color:white; font-weight:normal; }
